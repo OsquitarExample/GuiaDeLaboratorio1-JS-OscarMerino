@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Guia de Laboratorio</title>
+</head>
+
+<body>
+
+    <!-- Tablas -->
+<div class="table-responsive">
+    <table class="table table-primary table-bordered">
+        <tr class="table-dark">
+            <td>#</td>
+            <td>Juguetes</td>
+            <td>Precios</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Monopolio</td>
+            <td>70.99</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ajedrez</td>
+            <td>78.99</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Lego</td>
+            <td>100.99</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dama</td>
+            <td>58.50</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Laberinto</td>
+            <td>35.00</td>
+        </tr>
+    </table>
+    
+
+   
+    <!--Input Seleccion de Producto-->
+<form id="form">
+    <div class="w-25 p-3" style="text-align: center;">
+        <label for="IdProducto" class="form-label"> Elija el número del Producto que desea comprar </label> <br>
+        <input type="number" id="IdProducto" name="input1" class="form-control">    
+    </div>
+    
+    <div class="w-25 p-3" style="text-align: center;">
+          <label for="cantidadProducto" class="form-label">Elija la cantidad de Productos que desea comprar </label>
+          <input type="number" id="cantidadProducto" name="input2" class="form-control">
+    </div>
+    
+
+    <button type="button" class="btn btn-primary m-3" id="btnCalcular"> Calcular Importe</button>
+</form>
+
+<p id="importeTotal" style="text-align: center;"></p>
+<p id="importeTotal2" style="text-align: center;"></p>
+<p id="importeTotal3" style="text-align: center;"></p>
+<p id="importeTotal4" style="text-align: center;"></p>
+<p id="importeTotal5"  style="text-align: center;"></p>
+<p id="comprarYA"  style="text-align: center;"></p>
+    
+
+    <script src="code4.js"></script>
+
+</body>
+
+</html>
+
